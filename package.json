@@ -1,8 +1,6 @@
-
-
 {
     "name": "chiasenhac-fetcher",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "index.js",
     "license": "BSD-2-Clause",
     "scripts": {
@@ -10,7 +8,7 @@
         "build": "coffee -c main.coffee"
     },
     "bin": {
-        "chiasenhac-fetcher": "node main.js"
+        "chiasenhac-fetcher": "./main.js"
     },
     "dependencies": {
         "axios": "^0.18.0",
